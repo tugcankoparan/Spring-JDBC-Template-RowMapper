@@ -26,8 +26,8 @@ public List<Employee> getAllEmployeesRowMapper(){
 			e.setSalary(rs.getInt(3));
 			empList.add(e);
 		}
+		return empList;
 	});
-	return empList;
-}
+	}
 
 }
